@@ -1,0 +1,20 @@
+<h2>Ng Switch</h2>
+<div class="text-center">
+  <ul *ngFor="let alumno of alumnos" [ngSwitch]="alumno.aprobado">
+    <li *ngSwitchCase="'aprobado'">
+      <h3 class="aprobado">
+        {{alumno.nombre}}
+      </h3>
+    </li>
+    <li *ngSwitchCase="'reprobado'">
+      <h3 class="reprobado">
+        {{alumno.nombre}}
+      </h3>
+    </li>
+    <li *ngSwitchCase="'de panzaso'">
+      <h3 class="de-panzaso">
+        {{alumno.nombre}}
+      </h3>
+    </li>
+  </ul>
+</div>

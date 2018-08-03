@@ -1,0 +1,7 @@
+<h3>Ejemplo directiva *ngIf</h3>
+<label>Introduce un valor</label>
+<input type="text" class="form-control" [(ngModel)]="nombre">
+<button type="submit" class="btn btn-primary btn-block" *ngIf="nombre; else desactivado">Enviar</button>
+<ng-template #desactivado>
+  <button type="submit " class="btn btn-primary btn-block " disabled>Enviar</button>
+</ng-template>

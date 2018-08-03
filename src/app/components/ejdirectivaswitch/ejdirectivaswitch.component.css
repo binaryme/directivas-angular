@@ -1,0 +1,14 @@
+.aprobado {
+  background-color: green;
+  color: #ffffff;
+}
+
+.reprobado {
+  background-color: peru;
+  color: #ffffff;
+}
+
+.de-panzaso {
+  background-color: yellowgreen;
+  color: #ffffff;
+}

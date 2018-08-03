@@ -1,0 +1,11 @@
+.aprobado {
+  color: rgb(181, 250, 181);
+}
+.suspendido {
+  color: peru;
+}
+.advertencia {
+  background-color: red;
+  padding: 15px;
+  color: #ffffff;
+}
